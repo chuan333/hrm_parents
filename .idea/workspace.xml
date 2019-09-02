@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Zuul9527">
+  <component name="RunManager" selected="Spring Boot.ConfigServer8848">
     <configuration name="ConfigServer8848" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hrm_config_server" />
       <extension name="coverage">
@@ -93,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServer8848Application" />
-        <item itemvalue="Spring Boot.Zuul9527" />
+        <item itemvalue="Spring Boot.ConfigServer8848" />
         <item itemvalue="Spring Boot.EurekaServer7001" />
+        <item itemvalue="Spring Boot.Zuul9527" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +107,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@15103173" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@313bc093" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -127,6 +127,7 @@
       <updated>1567390825841</updated>
       <workItem from="1567390827560" duration="1603000" />
       <workItem from="1567393325772" duration="2494000" />
+      <workItem from="1567396131905" duration="91000" />
     </task>
     <servers />
   </component>

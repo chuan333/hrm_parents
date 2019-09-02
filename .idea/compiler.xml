@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hrm_parents" />
+        <module name="hrm_course_service" />
         <module name="hrm_zuul" />
         <module name="hrm_eureka" />
         <module name="hrm_basic_util" />
@@ -14,7 +14,7 @@
         <module name="hrm_management_service" />
         <module name="hrm_management_interface" />
         <module name="hrm_config_server" />
-        <module name="hrm_course_service" />
+        <module name="hrm_parents" />
         <module name="hrm_mybatisplus_gen" />
       </profile>
     </annotationProcessing>
