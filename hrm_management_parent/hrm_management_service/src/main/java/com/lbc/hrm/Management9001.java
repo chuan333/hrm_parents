@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @MapperScan("com.lbc.hrm.mapper")
-public class SysManage9001 {
+public class Management9001 {
     public static void main(String[] args) {
-        SpringApplication.run(SysManage9001.class,args);
+        SpringApplication.run(Management9001.class,args);
     }
 }

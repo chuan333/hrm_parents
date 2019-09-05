@@ -3,9 +3,9 @@ package com.lbc.hrm.web.controller;
 import com.lbc.hrm.service.ICourseTypeService;
 import com.lbc.hrm.domain.CourseType;
 import com.lbc.hrm.query.CourseTypeQuery;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.lbc.hrm.util.AjaxResult;
 import com.lbc.hrm.util.PageList;
-import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -79,10 +79,19 @@ public class CourseTypeController {
     * @return PageList 分页对象
     */
     @RequestMapping(value = "/json",method = RequestMethod.POST)
-    public PageList<CourseType> json(@RequestBody CourseTypeQuery query)
-    {
-        Page<CourseType> page = new Page<CourseType>(query.getPage(),query.getRows());
+    public PageList<CourseType> json(@RequestBody CourseTypeQuery query){
+        /*Page<CourseType> page = new Page<CourseType>(query.getPage(),query.getRows());
             page = courseTypeService.selectPage(page);
-            return new PageList<CourseType>(page.getTotal(),page.getRecords());
+            return new PageList<CourseType>(page.getTotal(),page.getRecords());*/
+
+        /**
+         *  原有的方法不能关联查询,需要重写方法
+         *
+         *  重写方法:
+         *             分页,高级查寻,关联查询
+         *
+         */
+        return courseTypeService.selectListPage(query);
+
     }
 }

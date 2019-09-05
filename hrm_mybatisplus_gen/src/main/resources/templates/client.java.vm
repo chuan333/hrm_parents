@@ -1,9 +1,9 @@
-package cn.itsource.hrm.client;
+package com.lbc.hrm.client;
 
 import ${package.Entity}.${entity};
-import cn.itsource.hrm.query.${entity}Query;
-import AjaxResult;
-import PageList;
+import com.lbc.hrm.query.${entity}Query;
+import com.lbc.hrm.util.AjaxResult;
+import com.lbc.hrm.util.PageList;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.cloud.openfeign.FeignClientsConfiguration;
 import org.springframework.web.bind.annotation.*;

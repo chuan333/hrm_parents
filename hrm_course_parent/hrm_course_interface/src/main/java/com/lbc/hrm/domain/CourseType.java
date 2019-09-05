@@ -1,5 +1,6 @@
 package com.lbc.hrm.domain;
 
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
@@ -31,6 +32,12 @@ public class CourseType extends Model<CourseType> {
      * 父ID
      */
     private Long pid;
+
+    /**
+     * mybatisplus关联查询
+     */
+    @TableField(exist = false )
+    private CourseType parent;
     /**
      * 图标
      */
@@ -128,6 +135,18 @@ public class CourseType extends Model<CourseType> {
 
     public void setTotalCount(Integer totalCount) {
         this.totalCount = totalCount;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public CourseType getParent() {
+        return parent;
+    }
+
+    public void setParent(CourseType parent) {
+        this.parent = parent;
     }
 
     @Override

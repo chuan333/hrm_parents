@@ -5,9 +5,18 @@ public class AjaxResult {
     private boolean success = true;
     private String message = "操作成功!";
 
-
+//ddddd
     //返回到前台对象
     private Object resultObj;
+
+    /**
+     * sdsf
+     * @return
+     */
+
+
+
+
 
     public boolean isSuccess() {
         return success;

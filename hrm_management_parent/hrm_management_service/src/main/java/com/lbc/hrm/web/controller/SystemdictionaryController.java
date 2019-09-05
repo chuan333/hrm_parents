@@ -3,9 +3,9 @@ package com.lbc.hrm.web.controller;
 import com.lbc.hrm.service.ISystemdictionaryService;
 import com.lbc.hrm.domain.Systemdictionary;
 import com.lbc.hrm.query.SystemdictionaryQuery;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.lbc.hrm.util.AjaxResult;
 import com.lbc.hrm.util.PageList;
-import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
