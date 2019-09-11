@@ -5,7 +5,11 @@ import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
+import lombok.Data;
+
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -15,6 +19,7 @@ import java.io.Serializable;
  * @author yhptest
  * @since 2019-08-31
  */
+@Data
 @TableName("t_course_type")
 public class CourseType extends Model<CourseType> {
 
@@ -55,6 +60,10 @@ public class CourseType extends Model<CourseType> {
      * 商品数量
      */
     private Integer totalCount;
+
+    //用来存放儿子
+    @TableField(exist = false)
+    private List<CourseType> children = new ArrayList<>();
 
 
     public Long getId() {
@@ -149,6 +158,14 @@ public class CourseType extends Model<CourseType> {
         this.parent = parent;
     }
 
+    public List<CourseType> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<CourseType> children) {
+        this.children = children;
+    }
+
     @Override
     protected Serializable pkVal() {
         return this.id;
@@ -168,5 +185,23 @@ public class CourseType extends Model<CourseType> {
         ", path=" + path +
         ", totalCount=" + totalCount +
         "}";
+    }
+
+    public CourseType(Long id, Long createTime, Long updateTime, String name, Long pid, CourseType parent, String logo, String description, Integer sortIndex, String path, Integer totalCount, List<CourseType> children) {
+        this.id = id;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+        this.name = name;
+        this.pid = pid;
+        this.parent = parent;
+        this.logo = logo;
+        this.description = description;
+        this.sortIndex = sortIndex;
+        this.path = path;
+        this.totalCount = totalCount;
+        this.children = children;
+    }
+
+    public CourseType() {
     }
 }

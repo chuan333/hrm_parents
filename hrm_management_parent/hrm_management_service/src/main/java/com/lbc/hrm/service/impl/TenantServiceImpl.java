@@ -5,12 +5,10 @@ import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.lbc.hrm.domain.Employee;
 import com.lbc.hrm.domain.Tenant;
 import com.lbc.hrm.mapper.EmployeeMapper;
-import com.lbc.hrm.mapper.MealMapper;
 import com.lbc.hrm.mapper.TenantMapper;
 import com.lbc.hrm.service.ITenantService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.stereotype.Service;
 
 import java.io.Serializable;

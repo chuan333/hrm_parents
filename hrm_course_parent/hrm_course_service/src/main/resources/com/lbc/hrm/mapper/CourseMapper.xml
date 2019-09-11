@@ -17,31 +17,31 @@
         <result column="start_time" property="startTime" />
         <result column="end_time" property="endTime" />
     </resultMap>
-
+     <!--name users tenantName userName-->
     <sql id="whereSql" >
-        <where>
-            <if test="query.keyword!=null and query.keyword!=''">
-                and (
+       <where>
+           <if test="query.keyword!=null and query.keyword!=''">
+               and (
                 c.name like concat('%',#{query.keyword},'%') or
                 c.users like concat('%',#{query.keyword},'%') or
                 c.tenantName like concat('%',#{query.keyword},'%') or
                 c.userName like concat('%',#{query.keyword},'%')
-                )
-            </if>
-        </where>
+               )
+           </if>
+       </where>
     </sql>
     <!--List<Course> loadListPage(@Param("query") CourseQuery query);-->
-    <select id="loadListPage" resultMap="CourseMap" parameterType="CourseQuery">
+    <select id="loadListPage" resultMap="CourseMap" parameterType="com.lbc.hrm.query.CourseQuery">
         SELECT
-        c.*, ct.id tid,
-        ct.`name` cname
+            c.*, ct.id tid,
+            ct.`name` cname
         FROM
-        t_course c
+            t_course c
         LEFT JOIN t_course_type ct ON c.course_type_id = ct.id
         <include refid="whereSql"></include>
     </select>
 
-    <resultMap id="CourseMap" type="Course">
+    <resultMap id="CourseMap" type="com.lbc.hrm.domain.Course">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="users" property="users" />
@@ -54,10 +54,31 @@
         <result column="userName" property="userName" />
         <result column="start_time" property="startTime" />
         <result column="end_time" property="endTime" />
-        <association property="courseType" javaType="CourseType">
+        <association property="courseType" javaType="com.lbc.hrm.domain.CourseType">
             <id column="tid" property="id" />
             <result column="cname" property="name" />
         </association>
     </resultMap>
+
+    <!--void batchOnline(List<Map<String, Object>> idsMap);-->
+    <!--update t_course set status = 1,start_time=xxx where id in (1,2,3)-->
+    <!--
+           start_time=now()设置开始时间为现在
+    -->
+    <update id="saves" parameterType="arrayList">
+        UPDATE t_course set status =1,start_time=now() where id IN
+        <foreach collection="list" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </update>
+
+    <!--void batchOffline(List<Long> longs);-->
+    <update id="deletes" parameterType="arrayList">
+        UPDATE t_course set status =0,end_time=now() where id IN
+        <foreach collection="list" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </update>
+
 
 </mapper>

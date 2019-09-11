@@ -71,6 +71,11 @@ public class SystemdictionaryitemController {
         return systemdictionaryitemService.selectList(null);
     }
 
+    @RequestMapping(value = "/listSn",method = RequestMethod.GET)
+    public List<Systemdictionaryitem> listByParentSn(String sn){
+
+        return systemdictionaryitemService.listByParentSn(sn);
+    }
 
     /**
     * 分页查询数据

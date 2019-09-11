@@ -1,155 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a05e57f5-47fa-446b-b053-308cfd98e819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseDetailClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseDetailClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseMarketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseMarketClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseResourceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/client/CourseResourceClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/query/CourseDetailQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/query/CourseMarketQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/query/CourseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/query/CourseResourceQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseMarketMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseMarketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseMarketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseMarketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMarketMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/DepartmentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/DepartmentClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/EmployeeClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/MealClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/MealClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/MenuClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/MenuClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/PermissionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/PermissionClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/RoleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/RoleClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/TenantClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/TenantClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/TenantTypeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/client/TenantTypeClientHystrixFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/domain/TenantType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/DepartmentQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/EmployeeQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/MealQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/MenuQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/PermissionQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/RoleQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/TenantQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/lbc/hrm/query/TenantTypeQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/MealMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/TenantMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/TenantTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IDepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IMealService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/ITenantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/ITenantTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/MealServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/TenantServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/TenantTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/MealController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/TenantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/TenantTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/MealMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/TenantMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/TenantTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="a05e57f5-47fa-446b-b053-308cfd98e819" name="Default Changelist" comment="提交项目">
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/com/lbc/hrm/client/EsCourseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/com/lbc/hrm/client/EsCourseClientHystrixFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/com/lbc/hrm/doc/EsCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/com/lbc/hrm/query/EsCourseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/Es9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/repository/EsCourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/service/IEsCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/service/impl/EsCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/com/lbc/hrm/web/controller/EsCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_interface/src/main/java/com/lbc/hrm/client/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_interface/src/main/java/com/lbc/hrm/client/RedisClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/java/com/lbc/hrm/Redis9005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/java/com/lbc/hrm/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/java/com/lbc/hrm/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/java/com/lbc/hrm/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rediss_service/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/util/UserInfoHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/cache/CourseTypeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/test/java/com/lbc/hrm/XxxServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/test/java/com/lbc/hrm/service/ICourseTypeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-page.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/com/lbc/hrm/Page9006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrm_page_parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/lbc/hrm/util/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/lbc/hrm/util/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/lbc/hrm/domain/CourseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/hrm_course_service.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/Course9002.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/Course9002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseMarketMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseResourceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/mapper/CourseTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/ICourseTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/service/impl/CourseTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm/web/controller/CourseTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMarketMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseMarketMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseResourceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseResourceMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper/CourseTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/SysManage9001.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/Management9001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/SystemdictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/SystemdictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/MealMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/PermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/SystemdictionaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/SystemdictionaryitemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/TenantMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/mapper/TenantTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/ISystemdictionaryitemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/ISystemdictionaryitemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/SystemdictionaryitemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/SystemdictionaryitemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/TenantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/service/impl/TenantServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/SystemdictionaryitemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm/web/controller/SystemdictionaryitemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/test/java/com/lbc/hrm/XxxServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/test/java/com/lbc/hrm/XxxServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_management_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/MealMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/PermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/SystemdictionaryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/SystemdictionaryitemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/TenantMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/lbc/hrm/mapper/TenantTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-sysmanage.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-management.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/query.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/query.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server/target/classes/com/lbc/hrm/ConfigServer8848.class" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server/target/classes/com/lbc/hrm/ConfigServer8848.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/target/classes/com/lbc/hrm/EurekaServer7001.class" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/target/classes/com/lbc/hrm/EurekaServer7001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_parents.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server/hrm_config_server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/hrm_eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/hrm_zuul.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/lbc/hrm/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/lbc/hrm/config/GlobalCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/target/euraka.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +129,19 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -187,8 +153,9 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -206,28 +173,68 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/lbc/hrm" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/com/lbc/hrm/mapper" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/lbc/hrm" />
+    <property name="last_opened_file_path" value="D:/课件/2019-09-09-HRM(人力资源管理)-DAY08/code/rabbitmq/testrabbimq" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.27126437" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4445741" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lbc.hrm.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_mybatisplus_gen\src\main\resources" />
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_basic_parent" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.lbc.hrm.config" />
+      <recent name="com.lbc.hrm.client" />
+      <recent name="com.lbc.hrm.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_page_parent\hrm_page_service\src\main\resources" />
       <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_course_parent\hrm_course_service\src\main\resources\com\lbc\hrm\mapper" />
-      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_management_parent\hrm_management_service\src\main\resources" />
-      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_course_parent\hrm_course_service\src\main\resources" />
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_course_parent\hrm_course_service\src\main\resources\com.lbc.hrm.mapper" />
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_basic_parent\hrm_basic_es_service\src\main\java\com\lbc\hrm" />
+      <recent name="D:\ide\IdeaProjects\hrm_parents\hrm_mybatisplus_gen\src\main\resources\templates" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lbc.hrm.util" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 103 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 103 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="hrm_course_service" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -245,8 +252,22 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.11065574" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Course9002">
+  <component name="RunManager" selected="Spring Boot.Zuul9527">
+    <configuration name="EurekaServer7001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lbc.hrm.EurekaServer7001" />
+      <module name="hrm_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbc.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServer8848" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hrm_config_server" />
       <extension name="coverage">
@@ -260,32 +281,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Course9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hrm_course_service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lbc.hrm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lbc.hrm.Course9002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hrm_eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lbc.hrm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lbc.hrm.EurekaServer7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Management9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hrm_management_service" />
       <extension name="coverage">
@@ -295,6 +290,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lbc.hrm.Management9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Redis9005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hrm_basic_rediss_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lbc.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lbc.hrm.Redis9005" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,18 +321,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EurekaServer7001" />
       <item itemvalue="Spring Boot.Management9001" />
-      <item itemvalue="Spring Boot.EurekaServer7001" />
+      <item itemvalue="Spring Boot.Redis9005" />
       <item itemvalue="Spring Boot.ConfigServer8848" />
       <item itemvalue="Spring Boot.Zuul9527" />
-      <item itemvalue="Spring Boot.Course9002" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Zuul9527" />
         <item itemvalue="Spring Boot.ConfigServer8848" />
-        <item itemvalue="Spring Boot.EurekaServer7001" />
-        <item itemvalue="Spring Boot.Course9002" />
+        <item itemvalue="Application.EurekaServer7001" />
+        <item itemvalue="Spring Boot.Redis9005" />
         <item itemvalue="Spring Boot.Management9001" />
       </list>
     </recent_temporary>
@@ -332,18 +340,69 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.12547323" />
+        <option name="contentProportion" value="0.2858757" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4bf2f30c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
     </option>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="viewType" value="service" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="path">
+                  <list>
+                    <option value="Run Dashboard" />
+                    <option value="SpringBootApplicationConfigurationType" />
+                    <option value="Finished" />
+                    <option value="SpringBootApplicationConfigurationType/Zuul9527" />
+                  </list>
+                </option>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a267c1ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a267c1ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@45f12027" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a267c1ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2c7d6c1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="viewType" value="contributor" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+      </list>
+    </option>
+    <option name="selectedView" value="0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -372,8 +431,53 @@
       <workItem from="1567590854707" duration="10604000" />
       <workItem from="1567607886894" duration="615000" />
       <workItem from="1567609177768" duration="1420000" />
-      <workItem from="1567644847094" duration="689000" />
+      <workItem from="1567644847094" duration="6031000" />
+      <workItem from="1567670343410" duration="2653000" />
+      <workItem from="1567677509260" duration="509000" />
+      <workItem from="1567678050285" duration="1566000" />
+      <workItem from="1567679649083" duration="3869000" />
+      <workItem from="1567688996772" duration="14649000" />
+      <workItem from="1567731208782" duration="6175000" />
+      <workItem from="1567744473896" duration="2594000" />
+      <workItem from="1567753816212" duration="324000" />
+      <workItem from="1567754210303" duration="260000" />
+      <workItem from="1567754561906" duration="3965000" />
+      <workItem from="1567759988577" duration="9070000" />
+      <workItem from="1567783408168" duration="6382000" />
+      <workItem from="1567791343351" duration="509000" />
+      <workItem from="1567832105239" duration="4959000" />
+      <workItem from="1567860344422" duration="10827000" />
+      <workItem from="1567874416865" duration="2506000" />
+      <workItem from="1567904477394" duration="16948000" />
+      <workItem from="1567943662822" duration="4448000" />
+      <workItem from="1567954032281" duration="7397000" />
+      <workItem from="1567990250884" duration="2763000" />
+      <workItem from="1568003623674" duration="9972000" />
+      <workItem from="1568023833500" duration="1563000" />
+      <workItem from="1568025572749" duration="2134000" />
+      <workItem from="1568027854279" duration="1423000" />
+      <workItem from="1568037365397" duration="721000" />
+      <workItem from="1568077255096" duration="18633000" />
+      <workItem from="1568119363135" duration="3763000" />
+      <workItem from="1568124570627" duration="235000" />
+      <workItem from="1568124977370" duration="840000" />
+      <workItem from="1568125847770" duration="495000" />
+      <workItem from="1568163025533" duration="8150000" />
+      <workItem from="1568171760494" duration="598000" />
+      <workItem from="1568172383409" duration="1201000" />
+      <workItem from="1568173607565" duration="1554000" />
+      <workItem from="1568176705287" duration="264000" />
+      <workItem from="1568176996398" duration="861000" />
+      <workItem from="1568181962400" duration="1275000" />
     </task>
+    <task id="LOCAL-00001" summary="提交项目">
+      <created>1567646170031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567646170031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,8 +495,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="提交项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交项目" />
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

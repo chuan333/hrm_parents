@@ -54,6 +54,7 @@ public class CourseDetail extends Model<CourseDetail> {
         this.intro = intro;
     }
 
+
     @Override
     protected Serializable pkVal() {
         return this.courseId;

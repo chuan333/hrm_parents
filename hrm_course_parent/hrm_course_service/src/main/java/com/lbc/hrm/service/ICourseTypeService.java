@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.service.IService;
 import com.lbc.hrm.query.CourseTypeQuery;
 import com.lbc.hrm.util.PageList;
 
+import java.util.List;
+
 /**
  * <p>
  * 课程目录 服务类
@@ -16,4 +18,6 @@ import com.lbc.hrm.util.PageList;
 public interface ICourseTypeService extends IService<CourseType> {
 
     PageList<CourseType> selectListPage(CourseTypeQuery query);
+
+    List<CourseType> selectTree(Long pid);
 }

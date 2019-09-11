@@ -1,12 +1,17 @@
 package com.lbc.hrm.domain;
 
 import com.baomidou.mybatisplus.enums.IdType;
+
+import java.util.ArrayList;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
+import lombok.Data;
+
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * <p>
@@ -16,12 +21,13 @@ import java.io.Serializable;
  * @author chuange
  * @since 2019-09-04
  */
+@Data
 @TableName("t_course")
 public class Course extends Model<Course> {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "id", type = IdType.AUTO)
+//    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
     /**
      * 课程名称
@@ -60,20 +66,16 @@ public class Course extends Model<Course> {
     private Date startTime;
     @TableField("end_time")
     private Date endTime;
-
     /**
      * 课程类型
      */
     @TableField(exist = false)
     private CourseType courseType;
-
     /**
      * 课程详情
      */
     @TableField(exist = false)
     private CourseDetail courseDetail;
-
-
 
     public Long getId() {
         return id;

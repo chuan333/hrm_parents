@@ -15,7 +15,7 @@ public class GenteratorCode {
 
     public static void main(String[] args) throws InterruptedException {
         //用来获取Mybatis-Plus.properties文件的配置信息
-        final ResourceBundle rb = ResourceBundle.getBundle("mybatisplus-course");
+        final ResourceBundle rb = ResourceBundle.getBundle("mybatisplus-es");
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
@@ -40,7 +40,7 @@ public class GenteratorCode {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setTablePrefix(new String[] { "t_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{"t_course","t_course_detail","t_course_market","t_course_resource"
+        strategy.setInclude(new String[]{"t_es_course"
                 }); // 需要生成的表
         mpg.setStrategy(strategy);
         // 包配置
@@ -113,7 +113,7 @@ public class GenteratorCode {
         });
         //=====================接口里面存放==================================//
 
-        // 自定义模板配置，可以 copy 源码 mybatis-plus/src/main/resources/templates 下面内容修改，
+        // 自定义模板配置，可以 copy 源码 mybatis-plus/src/main//templates 下面内容修改，
         // 放置自己项目的 src/main/resources/templates 目录下, 默认名称一下可以不配置，也可以自定义模板名称
         TemplateConfig tc = new TemplateConfig();
         tc.setService("/templates/service.java.vm");

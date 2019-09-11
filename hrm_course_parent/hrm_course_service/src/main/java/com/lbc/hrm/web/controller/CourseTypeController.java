@@ -94,4 +94,10 @@ public class CourseTypeController {
         return courseTypeService.selectListPage(query);
 
     }
+
+    //无限级查询
+    @RequestMapping(value = "/treeData",method = RequestMethod.GET)
+    public List<CourseType> getTree(){
+        return courseTypeService.selectTree(0L);
+    }
 }

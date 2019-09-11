@@ -8,6 +8,4 @@
         <result column="resources" property="resources" />
     </resultMap>
 
-
-
 </mapper>

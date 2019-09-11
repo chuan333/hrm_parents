@@ -13,6 +13,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>hrm_basic_util</module>
+        <module>hrm_basic_es_interface</module>
+        <module>hrm_basic_es_service</module>
+        <module>hrm_basic_rediss_interface</module>
+        <module>hrm_basic_rediss_service</module>
     </modules>
 
 </project>

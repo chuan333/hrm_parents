@@ -16,4 +16,8 @@ import com.lbc.hrm.util.PageList;
 public interface ICourseService extends IService<Course> {
 
     PageList<Course> selectListPage(CourseQuery query);
+
+    void saveBatch(Long[] ids);
+
+    void deleteBatch(Long[] ids);
 }
